@@ -1,0 +1,4 @@
+File -> Preferences -> Keyboard Shortcuts -> emmet balance outward : for selecting the html tag content
+npx shadcn@latest init
+plugin: Tailwind CSS IntelliSense to see css of tailwind classes
+add new theme from shadcn (blue color)
