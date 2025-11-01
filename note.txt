@@ -2,3 +2,7 @@ File -> Preferences -> Keyboard Shortcuts -> emmet balance outward : for selecti
 npx shadcn@latest init
 plugin: Tailwind CSS IntelliSense to see css of tailwind classes
 add new theme from shadcn (blue color)
+npx shadcn@latest add button
+npm install lucide-react
+partially complete the landing page
+add logo in navbar
