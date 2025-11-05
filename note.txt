@@ -8,3 +8,8 @@ partially complete the landing page
 add logo in navbar
 npx shadcn@latest add sheet
 npx shadcn@latest add seperator
+npm install express
+npm install -D @types/express
+npm install dotenv
+npm install payload
+create database client
