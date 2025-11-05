@@ -6,3 +6,5 @@ npx shadcn@latest add button
 npm install lucide-react
 partially complete the landing page
 add logo in navbar
+npx shadcn@latest add sheet
+npx shadcn@latest add seperator
