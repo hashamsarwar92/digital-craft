@@ -13,3 +13,7 @@ npm install -D @types/express
 npm install dotenv
 npm install payload
 create database client
+npm install cross-env
+npm install @payloadcms/richtext-slate @payloadcms/bundler-webpack @payloadcms/db-mongodb or
+npm install @payloadcms/richtext-slate @payloadcms/bundler-webpack @payloadcms/db-mongodb --legacy-peer-deps
+npm install -D nodemon or npm install -D nodemon --legacy-peer-deps
