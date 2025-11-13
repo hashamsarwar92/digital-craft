@@ -4,3 +4,17 @@ npm install lucide-react
 
 npx shadcn@latest add sheet
 npx shadcn@latest add separator
+
+npm install express@^4.18.2
+npm install -D @types/express
+npm install dotenv@^16.3.1
+npm install payload@^2.0.15
+npm install cross-env@^7.0.3
+npm install @payloadcms/richtext-slate@^1.1.0
+npm install @payloadcms/db-mongodb@^1.0.6
+npm install @payloadcms/bundler-webpack@^1.0.5
+npm install -D nodemon@^3.0.1
+extra
+npm install -D ts-node
+npm install -D @types/node
+npx payload create-user
