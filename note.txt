@@ -17,4 +17,5 @@ npm install -D nodemon@^3.0.1
 extra
 npm install -D ts-node
 npm install -D @types/node
-npx payload create-user
+npx shadcn@latest add input
+npx shadcn@latest add label
