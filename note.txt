@@ -17,5 +17,12 @@ npm install -D nodemon@^3.0.1
 extra
 npm install -D ts-node
 npm install -D @types/node
+
+
 npx shadcn@latest add input
 npx shadcn@latest add label
+
+npm install react-hook-form 
+npm i @hookform/resolvers
+npm i zod 
+npm i sonner
