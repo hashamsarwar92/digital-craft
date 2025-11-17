@@ -14,24 +14,21 @@ import {useForm} from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 
 import {z} from 'zod'
+import { AuthCredientialsValidator, TAuthCredientialsValidator } from '@/lib/validators/account-credientials-validator'
 
 
 
 
 const Page = () => {
-  const AuthCredientialsValidator = z.object({
-    email: z.string().email(),
-    password: z.string().min(8, {
-      message: 'Password must be at least 8 character longs',
-    })
-  })
-
-  type TAuthCredientialsValidator = z.infer<typeof AuthCredientialsValidator>
-
+ 
   const {register, handleSubmit, formState: { errors }} = useForm({
     resolver: zodResolver(AuthCredientialsValidator)
   });
 
+
+  const onSubmit = ({email, password}: TAuthCredientialsValidator)=>{
+    // send data to server
+  }
   return (
     <>
       <div className='container relative flex pt-20 flex-col items-center justify-center lg:px-0'>

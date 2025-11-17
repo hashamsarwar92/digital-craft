@@ -26,3 +26,4 @@ npm install react-hook-form
 npm i @hookform/resolvers
 npm i zod 
 npm i sonner
+npm install @trpc/client @trpc/next @trpc/react-query @trpc/server @tanstack/react-query
