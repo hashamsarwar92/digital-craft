@@ -28,4 +28,4 @@ npm i zod
 npm i sonner
 npm install @trpc/client @trpc/next @trpc/react-query @trpc/server @tanstack/react-query
 npm install @tanstack/react-query@^5.59.15
-test
+done tesing ad fix some busgs
