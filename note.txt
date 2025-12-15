@@ -37,3 +37,4 @@ time stamp: 03:48
 rethink about project
 still thinking
 thinking again
+stupid commit
